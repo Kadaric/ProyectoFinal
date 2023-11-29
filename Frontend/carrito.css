@@ -1,0 +1,106 @@
+body {
+    background-image: url("img/adidas_bgnd_2.png");
+    background-size: 500px;
+    font-family: Arial, sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+    padding: 10px;
+    text-align:right;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 5px;
+    width: 100px;
+}
+
+header h1 {
+    color: #ffffff;
+    margin: 0; 
+    margin-right: 20px;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 10px; /* Ajuste para evitar que el contenido se solape con el encabezado */
+    padding: 20px;
+    width: 80%; /* Ajusta el ancho de la sección según sea necesario */
+    max-width: 600px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.product-list-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.total-section {
+    margin-top: 20px;
+    text-align: right;
+}
+
+#botonera {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+#boton {
+    margin: 5px;
+    padding: 20px;
+    background-color: rgb(153, 153, 102);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold; 
+    border-radius: 10px; 
+    transition: background-color 0.3s ease; 
+}
+
+#boton:hover {
+    background-color: #2574a9; 
+}
